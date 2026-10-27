@@ -1,0 +1,1615 @@
+.globe-shell:has(.earth-error) .globe-instructions,
+.globe-shell:has(.earth-error) .globe-controls button:not(:last-child),
+.globe-shell:has(.earth-error) .control-divider {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  .hero-copy {
+    left: calc((100vw - 1258px) / 2);
+  }
+  .hero-bottom {
+    left: calc((100vw - 1258px) / 2);
+  }
+  .hero {
+    height: 800px;
+  }
+  .globe-shell {
+    right: 6%;
+  }
+}
+@media (max-width: 1150px) {
+  .site-header {
+    padding: 0 4%;
+    height: 80px;
+  }
+  .brand {
+    gap: 12px;
+  }
+  .brand-monogram {
+    font-size: 33px;
+  }
+  .brand-name {
+    font-size: 17px;
+  }
+  .main-nav {
+    margin-left: 0;
+    gap: 2px;
+  }
+  .main-nav a {
+    padding: 9px 12px;
+    font-size: 10px;
+  }
+  .header-actions {
+    gap: 18px;
+  }
+  .header-cta {
+    font-size: 9px;
+    gap: 12px;
+  }
+  .hero {
+    height: calc(100svh - 80px);
+    min-height: 640px;
+  }
+  .hero-copy {
+    left: 6%;
+    top: 21%;
+    width: 40%;
+  }
+  .hero h1 {
+    font-size: 76px;
+    letter-spacing: -4px;
+  }
+  .hero-copy > p {
+    font-size: 12px;
+    max-width: 280px;
+  }
+  .hero-actions {
+    gap: 17px;
+    flex-wrap: wrap;
+  }
+  .hero-actions .button {
+    font-size: 10px;
+    padding: 14px 17px;
+    gap: 17px;
+    min-height: 46px;
+  }
+  .tour-start {
+    font-size: 9px;
+  }
+  .hero-note {
+    margin-top: 31px;
+  }
+  .globe-shell {
+    left: 37%;
+    right: 0;
+  }
+  .globe-topline {
+    left: 22%;
+    right: 7%;
+  }
+  .globe-control-row {
+    left: 19%;
+    right: 7%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+    bottom: 10px;
+  }
+  .hero-bottom {
+    left: 6%;
+  }
+  .earth-credit {
+    margin-left: 28%;
+  }
+  .section {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .place-grid {
+    gap: 17px;
+  }
+  .place-card-image {
+    height: 155px;
+  }
+  .place-card-body {
+    padding: 17px;
+  }
+  .place-card h3 {
+    font-size: 18px;
+  }
+  .discovery-bar {
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 4%;
+  }
+  .discovery-bar > div {
+    gap: 9px;
+  }
+  .discovery-bar > div > span:not(.status-dot) {
+    font-size: 27px;
+  }
+  .sl-content {
+    padding: 45px 9% 25px;
+  }
+  .sl-image {
+    min-height: 590px;
+  }
+  .section-heading {
+    gap: 25px;
+  }
+  .section-heading > p {
+    max-width: 230px;
+    font-size: 10px;
+  }
+  .section-heading h2 {
+    font-size: 36px;
+  }
+  .continent-panel {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .continent-detail {
+    padding: 35px 30px;
+  }
+  .continent-detail > h3 {
+    font-size: 44px;
+  }
+  .business-section {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .business-section h2 {
+    font-size: 42px;
+  }
+  .business-orbit {
+    right: 7%;
+    width: 210px;
+    height: 210px;
+  }
+  .footer-top {
+    gap: 30px;
+  }
+  .footer-bottom {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-bottom > div {
+    margin-left: auto;
+  }
+  .tour-panel {
+    left: 17%;
+    right: 9%;
+  }
+  html[lang='si'] .header-cta {
+    display: none;
+  }
+  html[lang='si'] .hero h1 {
+    font-size: 62px;
+  }
+  html[lang='si'] .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  html[lang='si'] .hero-copy {
+    top: 16%;
+  }
+}
+@media (max-width: 800px) {
+  .site-header {
+    height: 75px;
+    padding: 0 5%;
+  }
+  .brand-monogram {
+    font-size: 31px;
+  }
+  .brand-divider {
+    height: 27px;
+  }
+  .brand-name {
+    font-size: 16px;
+  }
+  .brand-name > span {
+    font-size: 5px;
+  }
+  .main-nav {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    right: 0;
+    padding: 17px 5%;
+    background: #0c1424fa;
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #36445b;
+    display: none;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .main-nav.open {
+    display: flex;
+  }
+  .main-nav a {
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+    padding: 13px 8px;
+  }
+  .menu-button {
+    display: flex;
+  }
+  .header-cta {
+    display: none;
+  }
+  .header-actions {
+    gap: 19px;
+  }
+  .language-toggle {
+    font-size: 10px;
+    gap: 6px;
+  }
+  .hero {
+    min-height: 700px;
+    max-height: 820px;
+    height: calc(100svh - 75px);
+  }
+  .hero-copy {
+    left: 6%;
+    top: 16%;
+    width: 47%;
+  }
+  .hero h1 {
+    font-size: 68px;
+    letter-spacing: -3px;
+  }
+  .hero h1 em {
+    letter-spacing: -3px;
+  }
+  .hero-copy .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.4px;
+  }
+  .hero-copy > p {
+    font-size: 12px;
+    max-width: 250px;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    margin-top: 24px;
+  }
+  .hero-note {
+    font-size: 6px;
+    letter-spacing: 1.2px;
+    margin-top: 25px;
+  }
+  .globe-shell {
+    left: 32%;
+    right: -9%;
+    bottom: 90px;
+    top: 40px;
+  }
+  .globe-topline {
+    left: 36%;
+    right: 18%;
+    top: 13px;
+  }
+  .globe-topline .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .globe-topline .eyebrow svg {
+    display: none;
+  }
+  .globe-control-row {
+    left: 31%;
+    right: 15%;
+    bottom: 5px;
+  }
+  .globe-instructions {
+    font-size: 7px;
+  }
+  .globe-location {
+    left: 54%;
+    top: 53%;
+    padding: 8px;
+    gap: 6px;
+  }
+  .globe-location > svg {
+    margin-left: 4px;
+  }
+  .hero-bottom {
+    height: 60px;
+    bottom: 0;
+  }
+  .earth-credit {
+    font-size: 5px;
+    margin-left: 17%;
+  }
+  .hero-index {
+    font-size: 7px;
+  }
+  .discovery-bar {
+    min-height: 105px;
+    gap: 5%;
+  }
+  .discovery-bar .bar-statement {
+    display: none;
+  }
+  .discovery-bar > div {
+    flex: 1;
+  }
+  .bar-star {
+    font-size: 17px;
+  }
+  .discovery-bar > div > span:not(.status-dot) {
+    font-size: 25px;
+  }
+  .discovery-bar p {
+    font-size: 9px;
+    max-width: 80px;
+  }
+  .section {
+    padding: 70px 6%;
+  }
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .section-heading h2 {
+    font-size: 34px;
+  }
+  .section-heading > p {
+    max-width: 370px;
+    font-size: 12px;
+  }
+  .explore-toolbar {
+    flex-wrap: wrap;
+  }
+  .search-field {
+    width: 100%;
+    padding: 14px 15px;
+  }
+  .search-field input {
+    font-size: 12px;
+  }
+  .filter-fields {
+    width: 100%;
+    gap: 13px;
+  }
+  .select-field {
+    flex: 1;
+  }
+  .select-field select {
+    width: 100%;
+    font-size: 11px;
+    padding: 13px 32px 13px 13px;
+    min-width: 0;
+  }
+  .place-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 17px;
+  }
+  .place-card-image {
+    height: 160px;
+  }
+  .place-card-body > p {
+    font-size: 10px;
+  }
+  .results-line {
+    font-size: 8px;
+  }
+  .results-line > span:last-child {
+    font-size: 6px;
+  }
+  .sri-lanka-section {
+    grid-template-columns: 1fr;
+  }
+  .sl-image {
+    height: 440px;
+    min-height: 0;
+  }
+  .sl-content {
+    padding: 45px 7% 30px;
+  }
+  .sl-content h2 {
+    font-size: 40px;
+  }
+  .sl-content > p {
+    max-width: 460px;
+    font-size: 12px;
+  }
+  .sl-content > .eyebrow {
+    font-size: 9px;
+  }
+  .sl-places-caption {
+    margin-top: 28px;
+    font-size: 9px;
+  }
+  .sl-place-list > button {
+    font-size: 14px;
+    padding: 16px 0;
+  }
+  .sl-place-category {
+    font-size: 8px;
+  }
+  .sl-index {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+  .sl-tour {
+    margin-top: 21px;
+    font-size: 12px;
+  }
+  .sl-attribution {
+    font-size: 7px;
+    margin-top: 23px;
+  }
+  .sl-large-type {
+    font-size: 64px;
+    bottom: 60px;
+  }
+  .sl-photo-label {
+    left: 7%;
+  }
+  .learning-tabs {
+    margin-top: 30px;
+  }
+  .continent-panel {
+    grid-template-columns: 1fr 1.4fr;
+    min-height: 430px;
+  }
+  .continent-list {
+    padding: 24px 18px;
+  }
+  .continent-list > button {
+    padding: 12px 8px;
+    font-size: 10px;
+    gap: 9px;
+  }
+  .continent-detail {
+    padding: 30px 24px;
+  }
+  .continent-detail > h3 {
+    font-size: 35px;
+  }
+  .continent-detail > p:not(.continent-model) {
+    font-size: 11px;
+  }
+  .continent-detail > .button {
+    font-size: 9px;
+    padding: 12px;
+    gap: 10px;
+  }
+  .continent-model {
+    font-size: 7px;
+  }
+  .continent-watermark {
+    right: -130px;
+    top: 100px;
+  }
+  .quiz-panel {
+    padding: 30px;
+  }
+  .quiz-option {
+    padding: 14px 12px;
+    font-size: 11px;
+    gap: 9px;
+  }
+  .quiz-question > h3 {
+    font-size: 22px;
+  }
+  .about-heading > h2 {
+    font-size: 34px;
+  }
+  .about-heading > p {
+    font-size: 12px;
+  }
+  .audience-grid {
+    gap: 12px;
+  }
+  .audience-grid > article {
+    padding: 22px 18px;
+  }
+  .audience-grid h3 {
+    font-size: 15px;
+  }
+  .audience-grid p {
+    font-size: 10px;
+  }
+  .business-section {
+    padding: 50px 7%;
+    min-height: 350px;
+  }
+  .business-section h2 {
+    font-size: 38px;
+  }
+  .business-section p {
+    max-width: 280px;
+  }
+  .business-orbit {
+    width: 180px;
+    height: 180px;
+    right: 1%;
+    opacity: 0.6;
+  }
+  .business-orbit:after {
+    inset: 40px -40px;
+  }
+  .business-corner {
+    font-size: 5px;
+  }
+  .site-footer {
+    padding: 40px 5% 25px;
+  }
+  .footer-top {
+    gap: 25px;
+  }
+  .footer-top > p {
+    max-width: 280px;
+    font-size: 8px;
+  }
+  .footer-up {
+    flex-shrink: 0;
+  }
+  .footer-bottom {
+    justify-content: flex-start;
+    row-gap: 15px;
+  }
+  .footer-bottom > p {
+    font-size: 7px;
+  }
+  .footer-bottom > div {
+    margin-left: 0;
+  }
+  .tour-panel {
+    left: 27%;
+    right: 14%;
+    bottom: 105px;
+  }
+  .tour-destination h3 {
+    font-size: 22px;
+  }
+  .tour-fact {
+    font-size: 9px;
+  }
+  .tour-bottom > span {
+    font-size: 6px;
+  }
+  .globe-shell.expanded .globe-control-row {
+    flex-wrap: nowrap;
+  }
+  .globe-shell.expanded .globe-topline {
+    top: 25px;
+  }
+  .globe-shell.expanded .tour-panel {
+    max-width: 340px;
+    width: 85%;
+    right: 7.5%;
+  }
+  html[lang='si'] .hero h1 {
+    font-size: 51px;
+    line-height: 1.55;
+  }
+  html[lang='si'] .hero-copy {
+    top: 17%;
+  }
+  html[lang='si'] .hero-copy > p {
+    font-size: 11px;
+  }
+  html[lang='si'] .section-heading h2 {
+    font-size: 30px;
+  }
+  html[lang='si'] .sl-content h2 {
+    font-size: 34px;
+  }
+  html[lang='si'] .continent-detail > h3 {
+    font-size: 30px;
+  }
+  html[lang='si'] .continent-list > button {
+    font-size: 10px;
+  }
+  html[lang='si'] .place-card h3 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 560px) {
+  html {
+    scroll-padding-top: 25px;
+  }
+  .site-header {
+    height: 72px;
+    padding: 0 6%;
+  }
+  .brand {
+    gap: 10px;
+  }
+  .brand-monogram {
+    font-size: 30px;
+  }
+  .brand-name {
+    font-size: 15px;
+  }
+  .brand-name > span {
+    font-size: 4px;
+    letter-spacing: 1.3px;
+    margin-top: 5px;
+  }
+  .brand-divider {
+    height: 24px;
+  }
+  .header-actions {
+    gap: 15px;
+  }
+  .language-toggle {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .language-toggle > svg {
+    display: none;
+  }
+  .menu-button {
+    min-width: 27px;
+  }
+  .main-nav {
+    top: 71px;
+    padding: 12px 4%;
+    gap: 0;
+  }
+  .main-nav a {
+    font-size: 10px;
+    padding: 12px 5px;
+  }
+  .main-nav a.active:before {
+    margin-right: 5px;
+    width: 3px;
+    height: 3px;
+  }
+  .hero {
+    min-height: 820px;
+    height: calc(100svh - 72px);
+    max-height: 960px;
+  }
+  .hero-copy {
+    left: 7%;
+    right: 7%;
+    top: 42px;
+    width: auto;
+    text-align: center;
+    pointer-events: none;
+  }
+  .hero-copy .eyebrow {
+    justify-content: center;
+    font-size: 7px;
+    letter-spacing: 1.7px;
+  }
+  .hero h1 {
+    font-size: 64px;
+    letter-spacing: -3.5px;
+    margin: 20px 0 16px;
+    line-height: 1.02;
+  }
+  .hero h1 em {
+    font-size: 1.06em;
+    letter-spacing: -3px;
+  }
+  .hero-copy > p {
+    font-size: 11px;
+    line-height: 1.85;
+    max-width: 300px;
+    margin: auto;
+  }
+  .hero-actions {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-top: 22px;
+  }
+  .hero-actions .button {
+    font-size: 9px;
+    min-height: 43px;
+    padding: 12px 15px;
+    gap: 13px;
+  }
+  .tour-start {
+    font-size: 8px;
+    gap: 7px;
+  }
+  .play-circle {
+    width: 24px;
+    height: 24px;
+  }
+  .hero-note {
+    display: none;
+  }
+  .globe-shell {
+    left: -10%;
+    right: -10%;
+    top: 342px;
+    bottom: 75px;
+  }
+  .globe-topline {
+    top: 0;
+    left: 16%;
+    right: 16%;
+  }
+  .globe-topline .eyebrow {
+    font-size: 5px;
+    letter-spacing: 1.6px;
+  }
+  .live-indicator {
+    font-size: 6px;
+  }
+  .earth-canvas {
+    border-radius: 0;
+  }
+  .globe-control-row {
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .globe-controls {
+    padding: 2px;
+    border-radius: 6px;
+  }
+  .globe-controls .icon-button {
+    min-width: 34px;
+    min-height: 32px;
+  }
+  .globe-instructions {
+    font-size: 7px;
+    color: #8ca5c1;
+  }
+  .desktop-hint {
+    display: none;
+  }
+  .touch-hint {
+    display: inline;
+  }
+  .globe-location {
+    left: 56%;
+    top: 46%;
+    font-size: 9px;
+    padding: 8px 9px;
+    gap: 8px;
+  }
+  .globe-location small {
+    font-size: 6px;
+    letter-spacing: 0.3px;
+  }
+  .pin-beacon {
+    width: 22px;
+    height: 22px;
+  }
+  .pin-beacon:before {
+    width: 35px;
+    height: 35px;
+  }
+  .globe-location > svg {
+    width: 13px;
+    margin-left: 2px;
+  }
+  .hero-bottom {
+    left: 7%;
+    right: 7%;
+    height: 49px;
+  }
+  .scroll-cue {
+    font-size: 8px;
+    gap: 8px;
+  }
+  .scroll-cue > svg {
+    width: 12px;
+  }
+  .earth-credit {
+    font-size: 4px;
+    letter-spacing: 0.7px;
+    margin-left: 0;
+  }
+  .hero-index {
+    font-size: 6px;
+    letter-spacing: 1.5px;
+  }
+  .hero-index > span {
+    padding: 0 3px;
+  }
+  .discovery-bar {
+    min-height: 104px;
+    padding: 23px 7%;
+    gap: 4%;
+  }
+  .discovery-bar > div {
+    display: block;
+  }
+  .discovery-bar > div > span:not(.status-dot) {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .discovery-bar p {
+    font-size: 8px;
+    line-height: 1.5;
+    margin-top: 6px;
+    max-width: 90px;
+  }
+  .bar-star {
+    font-size: 13px;
+    color: #304968;
+  }
+  .section {
+    padding: 60px 7%;
+  }
+  .section-heading {
+    margin-bottom: 25px;
+    gap: 13px;
+  }
+  .section-heading > .eyebrow,
+  .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  .section-heading h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+  }
+  .section-heading > p {
+    font-size: 11px;
+    line-height: 1.8;
+    max-width: 290px;
+  }
+  .explore-toolbar {
+    padding: 8px 0 16px;
+    gap: 12px;
+  }
+  .search-field {
+    padding: 13px 14px;
+  }
+  .search-field input {
+    font-size: 11px;
+  }
+  .search-field > svg {
+    width: 16px;
+  }
+  .filter-fields {
+    gap: 9px;
+  }
+  .select-field select {
+    font-size: 9px;
+    padding: 12px 28px 12px 11px;
+  }
+  .select-field > svg {
+    right: 9px;
+    width: 12px;
+  }
+  .results-line {
+    font-size: 7px;
+    padding: 17px 0;
+  }
+  .results-line > span:last-child {
+    font-size: 5px;
+    letter-spacing: 1px;
+  }
+  .results-line > span:last-child svg {
+    width: 10px;
+  }
+  .place-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .place-card-image {
+    height: 205px;
+  }
+  .place-card-body {
+    padding: 20px;
+  }
+  .place-card h3 {
+    font-size: 23px;
+  }
+  .card-region {
+    font-size: 9px;
+  }
+  .place-card-body > p {
+    font-size: 11px;
+    line-height: 1.85;
+    min-height: 40px;
+  }
+  .image-category {
+    top: 15px;
+    left: 15px;
+    font-size: 8px;
+    padding: 6px 9px;
+  }
+  .card-number {
+    font-size: 9px;
+  }
+  .art-caption {
+    font-size: 7px;
+  }
+  .show-more {
+    margin-top: 27px;
+  }
+  .show-more .button {
+    font-size: 9px;
+    gap: 14px;
+    min-height: 43px;
+  }
+  .sl-image {
+    height: 350px;
+  }
+  .sl-image > img {
+    object-position: 56% center;
+  }
+  .sl-large-type {
+    font-size: 49px;
+    bottom: 57px;
+  }
+  .sl-photo-label {
+    left: 7%;
+    right: 7%;
+    bottom: 24px;
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .sl-photo-label > span:last-child {
+    font-size: 6px;
+  }
+  .sl-content {
+    padding: 39px 7% 25px;
+  }
+  .sl-content > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+  }
+  .sl-content h2 {
+    font-size: 35px;
+    letter-spacing: -1px;
+    margin-top: 17px;
+    line-height: 1.25;
+  }
+  .sl-content > p {
+    font-size: 11px;
+    margin-top: 19px;
+    line-height: 1.9;
+  }
+  .sl-places-caption {
+    font-size: 8px;
+    margin-top: 24px;
+  }
+  .sl-place-list > button {
+    font-size: 13px;
+    padding: 15px 0;
+    gap: 11px;
+  }
+  .sl-place-category {
+    font-size: 7px;
+  }
+  .sl-index {
+    font-size: 8px;
+  }
+  .sl-tour {
+    font-size: 11px;
+    gap: 25px;
+  }
+  .sl-attribution {
+    font-size: 6px;
+    margin-top: 17px;
+  }
+  .learning-tabs {
+    gap: 4px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+  }
+  .learning-tabs > button {
+    padding: 12px 9px 16px;
+    font-size: 9px;
+    gap: 6px;
+  }
+  .learning-tabs > button > svg {
+    width: 14px;
+  }
+  .learning-tabs > button > span {
+    font-size: 7px;
+    padding: 2px 4px;
+    margin-left: 0;
+  }
+  .continent-panel {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .continent-list {
+    border-right: 0;
+    border-bottom: 1px solid #29374b;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .continent-list > p {
+    width: 100%;
+    max-width: none;
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+  .continent-list > button {
+    width: auto;
+    font-size: 9px;
+    gap: 6px;
+    padding: 9px 10px;
+    border: 1px solid #25354d;
+    margin: 0;
+  }
+  .continent-list > button > svg,
+  .continent-list > button > span {
+    display: none;
+  }
+  .continent-detail {
+    min-height: 350px;
+    padding: 28px 23px;
+  }
+  .continent-detail > h3 {
+    font-size: 38px;
+    margin-top: 20px;
+  }
+  .continent-detail > p:not(.continent-model) {
+    font-size: 11px;
+    margin-top: 14px;
+  }
+  .continent-detail > .button {
+    font-size: 9px;
+    margin-top: 24px;
+    padding: 12px 14px;
+    gap: 18px;
+  }
+  .continent-detail > .continent-model {
+    font-size: 7px;
+    padding-top: 26px;
+  }
+  .continent-watermark {
+    top: 70px;
+    right: -95px;
+  }
+  .quiz-panel {
+    padding: 28px 19px;
+    min-height: 420px;
+  }
+  .quiz-intro > h3,
+  .quiz-result > h3 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+  }
+  .quiz-intro > p,
+  .quiz-result > p {
+    font-size: 11px;
+  }
+  .quiz-orbit {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 24px;
+  }
+  .quiz-orbit > svg {
+    width: 55px;
+  }
+  .quiz-intro > .eyebrow {
+    font-size: 7px;
+  }
+  .quiz-intro > .fine-print {
+    font-size: 7px;
+  }
+  .quiz-options {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .quiz-option {
+    font-size: 11px;
+    padding: 13px;
+  }
+  .quiz-question > h3 {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .quiz-topline > .eyebrow {
+    font-size: 8px;
+  }
+  .quiz-progress {
+    margin-top: 15px;
+    margin-bottom: 23px;
+  }
+  .quiz-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .quiz-actions .button {
+    width: 100%;
+    font-size: 10px;
+  }
+  .quiz-actions .fine-print {
+    max-width: 100%;
+    font-size: 7px;
+  }
+  .quiz-feedback {
+    padding: 12px 14px;
+    margin-top: 18px;
+  }
+  .quiz-feedback > p {
+    font-size: 10px;
+  }
+  .result-dots {
+    gap: 4px;
+  }
+  .result-dots > span {
+    width: 22px;
+    height: 22px;
+  }
+  .score-value {
+    font-size: 68px;
+  }
+  .about-section {
+    padding-top: 52px;
+  }
+  .about-heading > h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 1.25;
+  }
+  .about-heading > p {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 18px;
+  }
+  .about-heading .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.8px;
+  }
+  .audience-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 30px;
+  }
+  .audience-grid > article {
+    padding: 25px;
+  }
+  .audience-grid h3 {
+    margin-top: 23px;
+    font-size: 19px;
+  }
+  .audience-grid p {
+    font-size: 11px;
+    max-width: 270px;
+  }
+  .audience-top > span {
+    font-size: 9px;
+  }
+  .business-section {
+    margin: 0 5%;
+    border-radius: 7px;
+    padding: 37px 7% 40px;
+    min-height: 360px;
+  }
+  .business-section .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1.2px;
+    gap: 7px;
+  }
+  .business-section h2 {
+    font-size: 33px;
+    line-height: 1.18;
+    letter-spacing: -1.1px;
+    margin-top: 20px;
+  }
+  .business-section p {
+    font-size: 10px;
+    max-width: 255px;
+    line-height: 1.9;
+    margin-top: 17px;
+  }
+  .business-section .button {
+    font-size: 9px;
+    gap: 23px;
+    padding: 13px 16px;
+    margin-top: 25px;
+  }
+  .business-orbit {
+    width: 170px;
+    height: 170px;
+    right: -65px;
+    opacity: 0.45;
+    top: 60%;
+  }
+  .business-orbit > span {
+    font-size: 70px;
+  }
+  .business-corner {
+    font-size: 4px;
+    letter-spacing: 1.2px;
+    right: 18px;
+    bottom: 15px;
+  }
+  .site-footer {
+    padding: 35px 7% 25px;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 22px;
+    position: relative;
+    padding-bottom: 25px;
+  }
+  .footer-top .brand-monogram {
+    font-size: 30px;
+  }
+  .footer-top .brand-name {
+    font-size: 15px;
+  }
+  .footer-top .brand-name > span {
+    font-size: 4px;
+  }
+  .footer-top > p {
+    max-width: none;
+    width: 100%;
+    font-size: 8px;
+    line-height: 1.9;
+    order: 2;
+  }
+  .footer-up {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 31px;
+    height: 31px;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    padding-top: 20px;
+  }
+  .footer-bottom > p {
+    font-size: 7px;
+  }
+  .footer-bottom > div {
+    gap: 22px;
+    margin-top: 4px;
+  }
+  .footer-bottom button {
+    font-size: 7px;
+  }
+  .modal {
+    max-height: 92svh;
+    max-width: calc(100vw - 24px);
+    border-radius: 9px;
+  }
+  .detail-photo {
+    height: 205px;
+  }
+  .detail-body {
+    padding: 25px 22px;
+  }
+  .detail-body > .eyebrow {
+    font-size: 7px;
+    gap: 7px;
+  }
+  .detail-body > h3 {
+    font-size: 32px;
+    margin-top: 13px;
+    letter-spacing: -1px;
+  }
+  .detail-description {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .fact-box {
+    padding: 16px;
+    gap: 11px;
+  }
+  .fact-box p {
+    font-size: 11px;
+  }
+  .fact-box > svg {
+    width: 17px;
+  }
+  .coordinate-grid dd {
+    font-size: 16px;
+  }
+  .detail-body > .button {
+    font-size: 11px;
+    gap: 18px;
+  }
+  .detail-source {
+    font-size: 8px;
+    gap: 4px;
+  }
+  .detail-body > .fine-print {
+    font-size: 7px;
+  }
+  .coordinate-art {
+    font-size: 19px;
+    left: 22px;
+    bottom: 25px;
+  }
+  .detail-art {
+    height: 160px;
+  }
+  .globe-illustration {
+    width: 210px;
+    right: -15px;
+  }
+  .info-modal {
+    padding: 40px 24px 28px;
+  }
+  .info-modal h3 {
+    font-size: 27px;
+  }
+  .info-modal p {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .info-modal > a {
+    font-size: 11px;
+  }
+  .globe-fallback {
+    max-width: 260px;
+    gap: 12px;
+  }
+  .globe-status h3 {
+    font-size: 24px;
+  }
+  .globe-status p {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+  .globe-status .button {
+    font-size: 9px;
+    min-height: 42px;
+    padding: 11px;
+  }
+  .globe-status .text-button {
+    font-size: 9px;
+  }
+  .globe-status {
+    top: 44%;
+    width: 75%;
+  }
+  .earth-error + .globe-location {
+    display: none;
+  }
+  .tour-panel {
+    bottom: 84px;
+    left: 17%;
+    right: 17%;
+    padding: 12px 14px;
+  }
+  .tour-destination h3 {
+    font-size: 21px;
+  }
+  .tour-destination > span > span {
+    font-size: 7px;
+  }
+  .tour-fact {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .tour-bottom {
+    margin-top: 8px;
+  }
+  .tour-bottom > span {
+    font-size: 6px;
+    max-width: 130px;
+    line-height: 1.6;
+  }
+  .tour-panel-heading .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1.1px;
+  }
+  .tour-count {
+    font-size: 6px;
+    margin-left: 8px;
+  }
+  .tour-segments {
+    margin-top: 5px;
+  }
+  .focused-location {
+    bottom: 95px;
+    left: 24%;
+    font-size: 12px;
+    gap: 13px;
+    padding: 12px 14px;
+  }
+  .globe-shell.expanded {
+    inset: 0;
+  }
+  .globe-shell.expanded .globe-control-row {
+    flex-direction: column;
+    gap: 15px;
+    bottom: 25px;
+  }
+  .globe-shell.expanded .globe-topline {
+    left: 7%;
+    right: 7%;
+    top: 25px;
+  }
+  .globe-shell.expanded .tour-panel {
+    bottom: 125px;
+    max-width: 320px;
+    left: auto;
+    right: 7%;
+    width: 86%;
+  }
+  .globe-shell.expanded .focused-location {
+    bottom: 125px;
+    left: 7%;
+  }
+  html[lang='si'] .hero-copy {
+    top: 35px;
+    left: 6%;
+    right: 6%;
+  }
+  html[lang='si'] .hero h1 {
+    font-size: 49px;
+    line-height: 1.4;
+    letter-spacing: -2px;
+    margin: 17px 0 12px;
+  }
+  html[lang='si'] .hero h1 em {
+    letter-spacing: -2px;
+  }
+  html[lang='si'] .hero-actions {
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  html[lang='si'] .hero-actions .button {
+    font-size: 8px;
+    padding: 12px;
+    gap: 9px;
+  }
+  html[lang='si'] .hero-copy > p {
+    font-size: 10px;
+    line-height: 2;
+    max-width: 300px;
+  }
+  html[lang='si'] .hero-copy .eyebrow {
+    font-size: 7px;
+  }
+  html[lang='si'] .tour-start {
+    font-size: 7px;
+    gap: 6px;
+  }
+  html[lang='si'] .globe-shell {
+    top: 360px;
+  }
+  html[lang='si'] .globe-shell.expanded {
+    top: 0;
+  }
+  html[lang='si'] .section-heading h2 {
+    font-size: 27px;
+    line-height: 1.6;
+  }
+  html[lang='si'] .place-card h3 {
+    font-size: 21px;
+  }
+  html[lang='si'] .sl-content h2 {
+    font-size: 31px;
+    line-height: 1.65;
+  }
+  html[lang='si'] .sl-place-category {
+    font-size: 6px;
+  }
+  html[lang='si'] .continent-detail h3 {
+    font-size: 31px;
+  }
+  html[lang='si'] .quiz-question > h3 {
+    font-size: 19px;
+  }
+  html[lang='si'] .learning-tabs > button {
+    font-size: 8px;
+    gap: 5px;
+  }
+  html[lang='si'] .learning-tabs > button > span {
+    display: none;
+  }
+  html[lang='si'] .about-heading > h2 {
+    font-size: 28px;
+  }
+  html[lang='si'] .business-section h2 {
+    font-size: 27px;
+    line-height: 1.8;
+  }
+  html[lang='si'] .hero-bottom .scroll-cue {
+    font-size: 7px;
+  }
+  html[lang='si'] .main-nav a {
+    padding: 12px 5px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 56px;
+  }
+  .header-actions {
+    gap: 8px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand-name {
+    font-size: 14px;
+  }
+  .brand-monogram {
+    font-size: 27px;
+  }
+  .hero-actions {
+    gap: 15px;
+  }
+  .tour-start {
+    font-size: 7px;
+  }
+  .hero-copy > p {
+    font-size: 10px;
+    max-width: 260px;
+  }
+  .hero-copy .eyebrow {
+    font-size: 6px;
+  }
+  .section-heading h2 {
+    font-size: 27px;
+  }
+  .results-line > span:last-child {
+    display: none;
+  }
+  .learning-tabs > button {
+    font-size: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .learning-tabs > button > span {
+    display: none;
+  }
+  .sl-content h2 {
+    font-size: 31px;
+  }
+  .business-section h2 {
+    font-size: 29px;
+  }
+  html[lang='si'] .hero h1 {
+    font-size: 43px;
+  }
+  html[lang='si'] .hero-actions {
+    gap: 8px;
+  }
+  html[lang='si'] .hero-actions .button {
+    font-size: 7px;
+    gap: 6px;
+    padding: 10px;
+  }
+  html[lang='si'] .tour-start {
+    font-size: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .earth-canvas canvas {
+    transition: none;
+  }
+  .place-card:hover,
+  .button.primary:hover,
+  .button.light:hover {
+    transform: none;
+  }
+}
