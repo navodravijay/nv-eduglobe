@@ -1,6 +1,16 @@
 # Quality assurance record
 
-**Review date:** 27 October 2026. **Target:** local production build, pending final manual acceptance and public deployment.
+**Review date:** 27 October 2026. **Target:** public Cloudflare Pages demonstration, with curriculum, native-language and target-device reviews still applicable.
+
+## Verified public release
+
+- **Live site:** https://nv-eduglobe.pages.dev/ — HTTPS HTTP 200, correct application title, verified after the user completed Cloudflare's GitHub import and deployment.
+- **Source release:** `4a7d6daea56b4fd3bbaae92f5f5d0a5f65fedfe0` on `navodravijay/nv-eduglobe`, branch `main`.
+- [GitHub Actions run 40534899039](https://github.com/navodravijay/nv-eduglobe/actions/runs/40534899039) completed successfully on Linux: clean install, TypeScript, lint, formatting, 17 unit/component tests, production build and **all 30 desktop/mobile browser tests**. This supersedes the interrupted local release rerun described below.
+- **8 additional browser checks against the deployed URL passed**, covering the textured globe, decoded local assets, no uncaught errors or third-party runtime requests, search/filter/empty states, destination guides, English/Sinhala switching, all five Sri Lanka thumbnails, Amazon photo/credits, translated alt text and narrow Sinhala layout. These ran in desktop and mobile-emulated installed Chrome. The focused photo test uses reduced motion, DPR 1 and simulated WebGL unavailability; the other live checks exercise the real WebGL globe. Native iOS Safari remains untested.
+- The deployed document returns the configured Content Security Policy, HSTS, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY` and `Referrer-Policy: no-referrer`.
+- Earth, Sigiriya, Kandy, Galle, Ella, Colombo and Amazon image endpoints each return HTTP 200 with `image/jpeg`. Live browser checks also decode photographs and exercise the interface under the actual production security policy.
+- Browser captures are stored locally under ignored `test-results/`; the temporary live-test configuration and command logs are in ignored `.tmp/`. Production application code was unchanged during publication verification.
 
 ## GitHub release preparation
 
@@ -79,7 +89,7 @@ Desktop/mobile hero and full-page screenshots were generated and visually inspec
 - Native Sinhala editorial review and educator review for the intended curriculum and age group.
 - Physical touch hardware and the specific exhibition/museum GPU, screen and kiosk settings.
 - Safari/Firefox and assistive-technology review; no claim of independent WCAG certification.
-- Cloudflare deployment and verification of returned security/cache headers. Vite preview does not apply `_headers`.
-- Final business-link and source-link review from the public deployment network. No public release or Cloudflare account operation has been performed.
+- Physical-device review of the live Cloudflare deployment and any exhibition-specific cache/network policy. Production document security headers have been verified; Vite preview does not apply `_headers`.
+- Final business-link and educational source-link review for the intended audience. The user performed the Cloudflare account setup; the public site and GitHub release were verified as described above.
 
 Run commands are documented in README.md. GitHub Actions configuration is included but has not been executed on GitHub in this local session.

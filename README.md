@@ -1,5 +1,7 @@
 # NV. EduGlobe
 
+[Live demonstration](https://nv-eduglobe.pages.dev/) · [GitHub repository](https://github.com/navodravijay/nv-eduglobe) · [Quality checks](https://github.com/navodravijay/nv-eduglobe/actions)
+
 **A world of discovery.** A premium, bilingual, interactive geography experience by **NV SHARP SOLUTIONS**, designed and developed by **Navod Ravindu Jayaweera**.
 
 An original digital museum experience built with Vite, React, TypeScript, Three.js and three-globe. Explore a satellite-textured Earth, travel between destinations, discover Sri Lanka and test your geography knowledge in English or Sinhala. All content and assets are local. No database, API key, authentication or paid service is needed.
@@ -13,7 +15,7 @@ This is an **educational commercial demonstration**, independently created and n
 - **Educational map layers:** toggle the 10° latitude/longitude grid, the 0° equator and collection markers without recreating the WebGL renderer. A cyan focus marker identifies the current destination. Zoom can approach closer to the surface.
 - **Destination photography:** Sigiriya, Kandy, Galle, Ella, Colombo, Amazon Rainforest, Everest, Giza, Machu Picchu and the Great Barrier Reef have locally bundled, verified Unsplash-licensed images. The Sri Lanka list includes photo thumbnails. Each photograph has English/Sinhala alt text, photographer and source credit. Failed photos recover with original artwork.
 
-All new settings remain in tab memory. No storage, personal profiles, runtime APIs or tracking were introduced. Image provenance and exact download identifiers are in ASSETS.md. The optional `node scripts/fetch-photos.mjs` helper refreshes the four new licensed files; normal installation and build use the included local copies.
+All new settings remain in tab memory. No storage, personal profiles, runtime APIs or tracking were introduced. Image provenance and exact download identifiers are in ASSETS.md. The optional `node scripts/fetch-photos.mjs` helper refreshes the additional licensed photographs; normal installation and build use the included local copies.
 
 ## Start locally
 
